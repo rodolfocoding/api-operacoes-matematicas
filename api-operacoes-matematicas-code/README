@@ -1,0 +1,14 @@
+UTILIZAÇÃO API:
+- Método POST na rota '/sum':
+    * Enviar um array de números inteiros via json.
+    Exemplo: 
+            {
+                "number": [1, 2, 3, 4 , 5, 6, 7, 8, 9]
+            }
+
+
+- Método GET na rota '/sum':
+    * Basta dar um GET na rota e a mesma retornara a soma de um vetor de 1 a 9.
+
+- Método GET na rota 'Average':
+    * Basta dar um GET na rota e a mesma retornara a média de um vetor de 1 a 9.
